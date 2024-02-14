@@ -33,6 +33,7 @@ body {
   font-size: 40px;
   font-family: "Big Shoulders Display", sans-serif;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .column {
@@ -42,4 +43,16 @@ body {
   justify-content: space-between;
   align-items: start;
   gap: 30px;
+}
+
+.column-one {
+  background-color: #e28625;
+}
+
+.column-two {
+  background-color: #006971;
+}
+
+.column-three {
+  background-color: #004140;
 }
