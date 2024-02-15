@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
 
+:root {
+  --main-border-radius: 9px;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: "Lexend Deca", sans-serif;
   background-color: var(--transparent-white-color);
   min-height: 100vh;
   display: flex;
@@ -25,8 +27,9 @@ body {
 
 .description {
   color: #ffffff;
-  font-family: "Lexend Deca";
   font-size: 18px;
+  line-height: 25px;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .title {
@@ -37,7 +40,7 @@ body {
 }
 
 .column {
-  padding: 30px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
